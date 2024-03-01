@@ -42,7 +42,7 @@ export class AppComponent implements OnInit {
   }
 
   onCellClicked(event: any) {
-    console.log(event); 
+    console.log(event.value); 
   }
 
   clearSelection() {
